@@ -3,6 +3,18 @@ header:
   text: "Come meet us and the Nervos at the following events—hope to see you there!"
 
 events:
+  - name: "Nervos Meetup No.5--SuZhou"
+    address: "SuZhou"                                       
+    time: "Sep.8 2018"
+    t: "2018-9-8"
+    link: "https://mp.weixin.qq.com/s/GQTZJR9IXvgDRZUsW9DBAg"
+
+  - name: "Nervos Dev Meetup No.2"
+    address: "HangZhou"                                       
+    time: "Sep.5 2018"
+    t: "2018-9-5"
+    link: "https://mp.weixin.qq.com/s/Qa9DYzUM7b_lMgtrOMUazg"
+
   - name: "Nervos Meetup No.4-ShenZhen"
     address: "ShenZhen"                                       
     time: "Aug.25 2018"

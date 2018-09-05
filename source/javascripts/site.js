@@ -1,18 +1,18 @@
 // This is where it all goes :)
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   var btns = document.getElementsByClassName('n-dropdown-toggle');
   var className = "n-open";
 
-  for(var i = 0; i < btns.length; i++) {
+  for (var i = 0; i < btns.length; i++) {
 
 
-    (function(index) {
+    (function (index) {
       var currentBtn = btns[index];
       var currentList = currentBtn.parentElement.getElementsByClassName('n-dropdown-list')[0];
       var classList = currentList.classList;
-      currentBtn.addEventListener("click", function() {
-        if(classList.contains(className)) {
+      currentBtn.addEventListener("click", function () {
+        if (classList.contains(className)) {
           // remove
           classList.remove(className);
         } else {
@@ -44,32 +44,32 @@ document.addEventListener("DOMContentLoaded", function() {
       dataType: 'json',
       contentType: "application/json; charset=utf-8",
       processData: false,
-    }).done(function(res) {
+    }).done(function (res) {
       submitButton.val(originSubmit);
       if (res.result === "error") {
         handleError()
       } else {
         handleSuccess()
       }
-    }).fail(function(res) {
+    }).fail(function (res) {
       submitButton.val(originSubmit);
       handleError()
     });
   });
 
   $(".form-fail").click(function (e) {
-    $(".form-fail").css({display: "none"});
-    $(".form").css({display: "block"});
+    $(".form-fail").css({ display: "none" });
+    $(".form").css({ display: "block" });
   });
-  
+
   function handleSuccess() {
-    $(".form").css({display: "none"});
-    $(".form-done").css({display: "block"});
+    $(".form").css({ display: "none" });
+    $(".form-done").css({ display: "block" });
   }
-  
+
   function handleError() {
-    $(".form").css({display: "none"});
-    $(".form-fail").css({display: "block"});
+    $(".form").css({ display: "none" });
+    $(".form-fail").css({ display: "block" });
   }
 
 
@@ -107,8 +107,8 @@ document.addEventListener("DOMContentLoaded", function() {
       if (href[0] === "/") {
         href = href.slice(1)
       }
-      if (href ===  "" || href === "#") {
-        return ;
+      if (href === "" || href === "#") {
+        return;
       }
       $('html, body').animate({
         scrollTop: $(href).offset().top

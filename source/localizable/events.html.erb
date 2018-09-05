@@ -14,21 +14,7 @@ title: "Events"
 
     <div class='events-container'>
       
-      <% split_event_list_all.each do |event| %>
-        <a class="event-container <%= 'active' if event.active == true %>" target='_blank' href=<%= event.link %></a>
-          <div class='event-name'>
-          <%= event.name %>
-          </div>
-          <div class='event-info'>
-          <span class='event-address'>
-            <%= event.address %>
-          </span>
-          <span class='event-time'>
-            <%= event.time %>
-          </span>
-          </div>
-        </a>
-      <% end %>
+      
     </div>
   </div>
 </div>
