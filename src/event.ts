@@ -67,8 +67,11 @@ const htmlEventList = function(eventInfos) {
   const eventtodo = []
   const now = new Date()
   eventInfos.forEach((info) => {
-    const [year, month, day] = info.t.split('-')
-    info.t = new Date(info.t)
+    if (isFinite(info.hours)) {
+      info.t = new Date(info.t + `-${Number(info.hours)}:00`)
+    } else {
+      info.t = new Date(info.t + '-22:00')
+    }
     if (info.t > now) {
       info.classes = clstodo
       eventtodo.push(info)
