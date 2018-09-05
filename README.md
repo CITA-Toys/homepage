@@ -12,12 +12,14 @@ bundle
 ## Run project
 
 ```bash
+yarn start
 bundle exec middleman server
 ```
 
 ## Build
 
 ```bash
+yarn build
 bundle exec middleman build
 ```
 
