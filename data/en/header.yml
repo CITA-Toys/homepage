@@ -14,6 +14,9 @@ menu:
   partners:
     name: "Partners"
     link: "/#partner"
+  shop:
+    name: "Shop"
+    link: "http://shop.nervos.org/"
 
 heading: "Nervos Network"
 
