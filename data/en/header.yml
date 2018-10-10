@@ -5,9 +5,9 @@ menu:
   team:
     name: "Team"
     link: "/#team"
-  investors:
-    name: "Investors"
-    link: "/#investors"
+  # investors:
+  #   name: "Investors"
+  #   link: "/#investors"
   Events:
     name: "Events"
     link: "/#events"
