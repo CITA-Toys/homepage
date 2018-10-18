@@ -8,9 +8,9 @@ menu:
   # investors:
   #   name: "Investors"
   #   link: "/#investors"
-  Events:
-    name: "Events"
-    link: "/#events"
+  # Events:
+  #   name: "Events"
+  #   link: "/#events"
   partners:
     name: "Partners"
     link: "/#partner"
