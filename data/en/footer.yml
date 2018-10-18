@@ -27,9 +27,9 @@ infos:
       reddit:
         name: ". Reddit"
         link: "https://www.reddit.com/r/NervosNetwork/"
-      events:
-        name: ". Events"
-        link: "/#events"
+      # events:
+      #   name: ". Events"
+      #   link: "/#events"
       medium:
         name: ". Medium"
         link: "https://medium.com/@NervosNetwork"
