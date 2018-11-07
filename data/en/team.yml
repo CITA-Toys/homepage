@@ -162,22 +162,22 @@ items:
     social:
       twitter: "https://twitter.com/NervosNetwork"
 
-  -
-    name: "Edith Yeung"
-    image_name: "edith_yeung.png"
-    identity: "Advisor"
-    desc: "Selected by Inc. Magazine as one of the Silicon Valley investors you must know, Edith Yeung is a partner at
-                         500 Startups, advisor to Dolphin Browser (acquired by CYOU), and founding partner at RightVentures."
-    social:
-      twitter: "https://twitter.com/edithyeung"
-      linkedin: "https://www.linkedin.com/in/edithyeung"
+  # -
+  #   name: "Edith Yeung"
+  #   image_name: "edith_yeung.png"
+  #   identity: "Advisor"
+  #   desc: "Selected by Inc. Magazine as one of the Silicon Valley investors you must know, Edith Yeung is a partner at
+  #                        500 Startups, advisor to Dolphin Browser (acquired by CYOU), and founding partner at RightVentures."
+  #   social:
+  #     twitter: "https://twitter.com/edithyeung"
+  #     linkedin: "https://www.linkedin.com/in/edithyeung"
 
-  -
-    name: "Chris McCann"
-    image_name: "chris_mccann.png"
-    identity: "Advisor"
-    desc: "Chris leads the community program at Greylock Partners, former co-founder of StartupDigest (acquired by Techstars),
-                           and early advisor for the Thiel Fellowship &amp; StartX at Stanford University."
-    social:
-      twitter: "https://twitter.com/mccannatron"
-      linkedin: "https://www.linkedin.com/in/mccannatron"
+  # -
+  #   name: "Chris McCann"
+  #   image_name: "chris_mccann.png"
+  #   identity: "Advisor"
+  #   desc: "Chris leads the community program at Greylock Partners, former co-founder of StartupDigest (acquired by Techstars),
+  #                          and early advisor for the Thiel Fellowship &amp; StartX at Stanford University."
+  #   social:
+  #     twitter: "https://twitter.com/mccannatron"
+  #     linkedin: "https://www.linkedin.com/in/mccannatron"
