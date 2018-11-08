@@ -26,7 +26,7 @@ community:
 
 whitepaper:
   name: "Whitepaper"
-  link: "https://github.com/NervosFoundation/binary/blob/master/whitepaper/nervos-ckb.pdf"
+  link: "https://github.com/nervosnetwork/binary/blob/master/whitepaper/nervos-ckb.pdf"
 
 logo:
   src: "nervos_logo.png"

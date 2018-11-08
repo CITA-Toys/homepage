@@ -4,10 +4,10 @@ infos:
     items:
       whitepaper:
         name: ". Whitepaper"
-        link: "https://github.com/NervosFoundation/binary/tree/master/whitepaper"
+        link: "https://github.com/nervosnetwork/binary/tree/master/whitepaper"
       github:
         name: ". GitHub"
-        link: "https://github.com/NervosFoundation"
+        link: "https://github.com/nervosnetwork"
       brand:
         name: ". Media kit"
         link: "https://projects.invisionapp.com/boards/XE3ONPCHUFN/"
