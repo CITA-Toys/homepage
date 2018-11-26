@@ -1,37 +1,52 @@
 menu:
   home:
-    name: "Home"
-    link: "/"
+    name: 'Home'
+    link: '/'
+  overview:
+    name: 'Overview'
+    link: '/#overview'
   team:
-    name: "Team"
-    link: "/#team"
-  # investors:
-  #   name: "Investors"
-  #   link: "/#investors"
-  # Events:
-  #   name: "Events"
-  #   link: "/#events"
+    name: 'Team'
+    link: '/#team'
+  roadmap:
+    name: 'Roadmap'
+    link: '/#roadmap'
+  blog:
+    name: 'Blog'
+    link: '/#blog'
+  github:
+    name: 'Github'
+    link: 'https://www.github.com/nervosnetwork/'
   partners:
-    name: "Partners"
-    link: "/#partner"
+    name: 'Partners'
+    link: '/#partner'
   shop:
-    name: "Shop"
-    link: "http://shop.nervos.org/"
+    name: 'Shop'
+    link: 'http://shop.nervos.org/'
 
-heading: "Nervos Network"
+heading: 'Nervos Network'
 
 community:
-  name: "Join Our Community"
-  link: "http://t.me/nervosnetwork"
+  name: 'Join Our Community'
+  link: 'http://t.me/nervosnetwork'
 
 whitepaper:
-  name: "Whitepaper"
-  link: "https://github.com/nervosnetwork/binary/blob/master/whitepaper/nervos-ckb.pdf"
+  name: 'Whitepaper'
+  link: 'https://github.com/nervosnetwork/binary/blob/master/whitepaper/nervos-ckb.pdf'
+
+telegram:
+  name: 'join our telegram'
+  link: 'https://t.me/NervosNetworkcn'
 
 logo:
-  src: "nervos_logo.png"
+  src: 'nervos_logo.png'
   srcset:
-    - ["nervos_logo_p_500.png", "500w"]
-    - ["nervos_logo_p_800.png", "800w"]
-    - ["nervos_logo_p_1080.png", "1080w"]
-    - ["nervos_logo_p_1520.png", "1520w"]
+    - ['nervos_logo_p_500.png', '500w']
+    - ['nervos_logo_p_800.png', '800w']
+    - ['nervos_logo_p_1080.png', '1080w']
+    - ['nervos_logo_p_1520.png', '1520w']
+  logo_vertical: 'nervos_logo_vertival.svg'
+  logo_bare: 'nervos_logo_bare.svg'
+lngs:
+  - ['English', '/en']
+  - ['Chinese', '/zh']

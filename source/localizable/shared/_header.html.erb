@@ -1,5 +1,26 @@
-<header class="main-header header">
-  <div class="n-container">
-    <%= partial "shared/main_header" %>
+<header>
+  <div class="lngs">
+    <% t_data.header.lngs.each do |lng| %>
+      <%= link_to lng[0], lng[1] %>
+    <% end %>
   </div>
+  <div class="navs">
+    <a href="/" class="logo">
+      <%= image_tag image_path(t_data.header.logo.logo_bare),
+        class: "header_logo"
+      %>
+    </a>
+    <% [
+      t_data.header.menu.overview,
+      t_data.header.menu.team,
+      t_data.header.menu.roadmap,
+      t_data.header.menu.blog,
+      t_data.header.menu.github
+    ].each do |nav| %>
+      <%= link_to nav[:name], nav[:link], target: "_blank" %>
+    <% end %>
+    <%= link_to t_data.header.telegram.name, t_data.header.telegram.link, class: "join-telegram"%>
+  </div>
+
 </header>
+
