@@ -72,12 +72,21 @@ a {
   margin-left: 0;
 }
 
+@media (max-width: 1200px) {
+
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 991px) {
   .n-container {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
   }
+
 }
 
 @media (max-width: 767px) {
