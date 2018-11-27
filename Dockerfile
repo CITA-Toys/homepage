@@ -28,8 +28,17 @@ RUN gem install bundler
 # clone repo
 RUN mkdir /app
 WORKDIR /app
+
+COPY Gemfile Gemfile
+COPY Gemfile.lock Gemfile.lock
+RUN bundle install
+
+COPY package.json package.json
+COPY yarn.lock yarn.lock
+RUN yarn
+
 COPY . .
-RUN bundle install && yarn && yarn build
+RUN yarn build
 ENV APP_ROOT /app/build
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
