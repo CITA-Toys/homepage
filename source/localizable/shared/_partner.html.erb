@@ -1,9 +1,8 @@
 <div id="partner" class="partner">
   <div class="n-container">
 
-    <div class="advisors-section">
-      <h1 class="heading-section"><%= t_data.partner.name %></h1>
-      <div class="hr-line"></div>
+    <div class="title">
+      <%= t_data.partner.title%>
     </div>
 
     <div class="main-core">
@@ -20,6 +19,14 @@
             <img src="<%= image_path(t_data.partner.items.cryptape.image_path) %>" class="right-image">
           </a>
         </div>
+
+        <div class="column">
+          <a href="/partner_with_us.html" class="partner-button">
+            <%= t_data.subscription.partner_button %>
+          </a>
+        </div>
+
+              
 
       </div>
     </div>
