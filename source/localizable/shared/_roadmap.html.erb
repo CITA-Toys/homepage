@@ -1,0 +1,50 @@
+<div id="roadmap" class="roadmap">
+
+  <div class="title">
+    <%= t_data.roadmap.title%>
+  </div>
+
+  <div class="n-container">
+
+    <% t_data.roadmap.roadmap.each_index do | i | %>
+      <% info = t_data.roadmap.roadmap[i] %>
+
+      <% if i % 2 == 0 %>
+        
+        <div class="roadmap-cell even">
+          <img src="<%= image_path('icons/roadmap-arrow.svg') %>" class="arrow">
+          <div class="tag">
+            <%= info.tag %>
+          </div>
+
+          <div class="events">
+            <% info.events.each do | event | %>
+              <div class="event">
+                <%= event %>
+              </div>
+            <% end %>
+          </div>
+        </div>
+        <% else %>
+
+        <div class="roadmap-cell odd">
+          <img src="<%= image_path('icons/roadmap-arrow.svg') %>" class="arrow">
+          <div class="tag">
+            <%= info.tag %>
+          </div>
+
+          <div class="events">
+            <% info.events.each do | event | %>
+              <div class="event">
+                <%= event %>
+              </div>
+            <% end %>
+          </div>
+
+        </div>
+
+      <% end %>
+
+    <% end%>
+  </div>
+</div>

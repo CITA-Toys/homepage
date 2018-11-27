@@ -1,0 +1,88 @@
+.roadmap {
+  padding: 174px 0 140px;
+  background: #11355c;
+
+  .title {
+    text-align: center;
+    color: #47ca94;
+    font-size: 130px;
+    line-height: 64px;
+    white-space: nowrap;
+    font-weight: normal;
+    font-family: BebasNeue-Regular;
+    margin: 0 0 166px;
+  }
+
+  .roadmap-cell {
+    border: 10px #fff;
+    display: inline-block;
+    padding-bottom: 58px;
+    position: relative;
+
+    &:first-child {
+      padding-top: 76px;
+
+      &:before {
+        content: ' ';
+        width: 10px;
+        height: 10px;
+        display: block;
+        position: absolute;
+        background: white;
+        border-radius: 50%;
+        left: 0;
+        top: 0;
+        transform: translate(-10px, -5px);
+      }
+    }
+
+    &:last-child {
+      &:after {
+        content: ' ';
+        width: 10px;
+        height: 10px;
+        display: block;
+        position: absolute;
+        background: white;
+        border-radius: 50%;
+        bottom: 0;
+        right: 0;
+        transform: translate(10px, 5px);
+      }
+    }
+
+    &.even {
+      padding-left: 90px;
+      margin-left: 50%;
+      border-left-style: solid;
+      text-align: left;
+
+      .arrow {
+        position: absolute;
+        left: 0;
+				transform: rotate(180deg);
+      }
+    }
+
+    &.odd {
+      width: 50%;
+      transform: translateX(10px);
+      padding-right: 90px;
+      border-right-style: solid;
+      text-align: right;
+
+      .arrow {
+        position: absolute;
+				right: 0;
+      }
+    }
+  }
+
+  .tag {
+    color: #47ca94;
+  }
+
+  .events {
+    color: #f3f5f7;
+  }
+}
