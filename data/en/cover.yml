@@ -2,7 +2,7 @@ logo: 'nervos_logo_on_video.svg'
 desc: 'Building a layered infrastructure for the future crypto economy.'
 
 whitepaper:
-  name: 'read the Whitepaper'
+  name: 'read the whitepaper'
   link: 'https://github.com/nervosnetwork/binary/blob/master/whitepaper/nervos-ckb.pdf'
 
 video:
