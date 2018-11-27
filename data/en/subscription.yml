@@ -1,3 +1,17 @@
+title: "Join Our Community"
 partner_button: "PARTNER WITH US"
 form_done: "Thank you! Your submission has been received!"
 form_fail: "Oops! Something went wrong while submitting the form."
+
+icons:
+  - name: "twitter"
+    link: "https://github.com/nervosnetwork"
+  - name: "medium"
+    link: "https://github.com/nervosnetwork"
+  - name: "telegram"
+    link: "https://github.com/nervosnetwork"
+  - name: "reddit"
+    link: "https://github.com/nervosnetwork"
+  - name: "youtube"
+    link: "https://github.com/nervosnetwork"
+

@@ -1,17 +1,12 @@
 <div class="subscription">
   <div class="n-container">
-    <div class="subscription-block clearfix">
-
-      <a href="/partner_with_us.html" class="partner-button">
-        <%= t_data.subscription.partner_button %>
-      </a>
-
-      <div class="form-block clearfix">
+    <h1 class="title"><%= t_data.subscription.title %></h1>
+    <div class="form-block clearfix">
         <form id="email-form" name="email-form" data-name="Email Form" action="https://nervos.us18.list-manage.com/subscribe/post?u=2ca40f7277e9b778c24f9aaaf&amp;amp;id=afeeb0c7e3"
               method="post" class="form clearfix">
-          <input type="text" class="email-field" maxlength="256" name="email" data-name="Email" placeholder="Enter your email to join our newsletter"
+          <input type="text" class="email-field" maxlength="256" name="email" data-name="Email" placeholder="Email"
                  id="email" required="">
-          <input type="submit" value="Submit" data-wait="Please wait..." class="submit-button">
+          <input type="submit" value="Sign Up for Updates" data-wait="Please wait..." class="submit-button">
         </form>
         <div class="form-done">
           <div><%= t_data.subscription.form_done %></div>
@@ -20,6 +15,17 @@
           <div><%= t_data.subscription.form_fail %></div>
         </div>
       </div>
+      <div class="social-icons">
+        <% t_data.subscription.icons.each do |info| %>
+          <a class="icon-link" href=<%= info.link %>>
+            <img src="<%= image_path('social/' + info.name + '.svg') %>" class="icon">
+          </a>
+        <% end %>
+
+      </div>
+    <div class="subscription-block clearfix">
+
+      
     </div>
   </div>
 </div>
