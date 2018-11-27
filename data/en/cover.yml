@@ -1,8 +1,8 @@
 logo: 'nervos_logo_on_video.svg'
-desc: 'Nervos is network of scalable and interoperable blockchains built on top of an open network. Leverage the properties of the blockchain without rewriting their existing applications. '
+desc: 'Building a layered infrastructure for the future crypto economy.'
 
 whitepaper:
-  name: 'Whitepaper'
+  name: 'read the whitepaper'
   link: 'https://github.com/nervosnetwork/binary/blob/master/whitepaper/nervos-ckb.pdf'
 
 video:
