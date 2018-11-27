@@ -1,10 +1,6 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-activate :autoprefixer do |prefix|
-  prefix.browsers = "last 2 versions"
-end
-
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
@@ -16,6 +12,15 @@ page '/*.txt', layout: false
 # Live reload
 # use: https://github.com/middleman/middleman-livereload
 activate :livereload
+
+activate :external_pipeline,
+         name: :webpack,
+         command: build? ? "npm run build:assets" : "npm run start:assets",
+         source: build? ? ".tmp/webpack_build" : ".tmp/webpack_output",
+         latency: 1
+
+set :js_dir, 'assets/js'
+set :css_dir, 'assets/css'
 
 # activate :i18n
 

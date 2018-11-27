@@ -1,5 +1,7 @@
 // This is where it all goes :)
 
+import '../css/app.css.scss'
+
 document.addEventListener("DOMContentLoaded", function () {
   var btns = document.getElementsByClassName('n-dropdown-toggle');
   var className = "n-open";

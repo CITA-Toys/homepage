@@ -5,3 +5,5 @@
 build/
 .ruby-gemset
 node_modules
+yarn-error.log
+.tmp

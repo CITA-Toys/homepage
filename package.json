@@ -1,23 +1,47 @@
 {
   "name": "nervos.org",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/GyonGyon/nervos.org.git",
+  "repository": "https://github.com/nervosnetwork/nervos.org",
   "author": "Yao <yao@cryptape.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack --config ./webpack/webpack.dev.js --watch",
-    "build": "webpack --config ./webpack/webpack.prod.js"
+    "start:assets": "webpack --config ./webpack.dev.js --watch",
+    "build:assets": "webpack --config ./webpack.prod.js -p",
+    "start": "bundle exec middleman server",
+    "build": "bundle exec middleman build"
   },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
   "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "autoprefixer": "^9.3.1",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
-    "ts-loader": "^5.3.0",
-    "typescript": "^3.0.3",
+    "mini-css-extract-plugin": "^0.4.5",
+    "node-sass": "^4.10.0",
+    "postcss-loader": "^3.0.0",
+    "resolve-url-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "sinon": "^7.1.1",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.17.2",
-    "webpack-cli": "^3.1.0"
+    "webpack-cli": "^3.1.0",
+    "webpack-merge": "^4.1.4"
   },
   "dependencies": {
     "@types/jquery": "^3.3.6",
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.1"
   }
 }
