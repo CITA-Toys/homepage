@@ -1,60 +1,64 @@
 infos:
   documentation:
-    name: "Documentation"
+    name: "Resources"
     items:
-      whitepaper:
-        name: ". Whitepaper"
-        link: "https://github.com/nervosnetwork/binary/tree/master/whitepaper"
       github:
-        name: ". GitHub"
+        name: "GitHub"
         link: "https://github.com/nervosnetwork"
-      brand:
-        name: ". Media kit"
-        link: "https://projects.invisionapp.com/boards/XE3ONPCHUFN/"
+      whitepaper:
+        name: "Whitepaper"
+        link: "https://github.com/nervosnetwork/binary/tree/master/whitepaper"
       faq:
-        name: ". FAQ"
+        name: "FAQ"
         link: "/faq.html"
+      forum:
+        name: "Forum"
+        link: "https://forums.nervos.org"
+      # brand:
+      #   name: "Media kit"
+      #   link: "https://projects.invisionapp.com/boards/XE3ONPCHUFN/"
 
   community:
     name: "Community"
     items:
-      telegram:
-        name: ". Telegram"
-        link: "http://t.me/nervosnetwork"
       twitter:
-        name: ". Twitter"
+        name: "Twitter"
         link: "https://twitter.com/nervosnetwork"
-      reddit:
-        name: ". Reddit"
-        link: "https://www.reddit.com/r/NervosNetwork/"
-      # events:
-      #   name: ". Events"
-      #   link: "/#events"
-      medium:
-        name: ". Medium"
+      blog:
+        name: "Blog"
         link: "https://medium.com/@NervosNetwork"
+      telegram:
+        name: "Telegram"
+        link: "http://t.me/nervosnetwork"
+      reddit:
+        name: "Reddit"
+        link: "https://www.reddit.com/r/NervosNetwork/"
+      youtube:
+        name: "Youtube"
 
-  organization:
-    name: "Organization"
+  aboutus:
+    name: "About us"
     items:
-      about:
-        name: ". About"
-        link: "/about.html"
+      team:
+        name: "Team"
+        link: "/team.html"
         blank: false
-      careers:
-        name: ". Careers"
-        link: "/career.html"
+      roadmap:
+        name: "Roadmap"
+        link: "/roadmap.html"
         blank: false
       interest:
-        name: ". Interest"
+        name: "Interest"
         link: "/interest.html"
         blank: false
+      careers:
+        name: "Careers"
+        link: "/career.html"
+        blank: false
       contact:
-        name: ". Contact"
+        name: "Contact"
         link: "/contact.html"
         blank: false
 
 
-rights: "© 2017 - 2018 Nervos is a project of the Nervos Foundation. All Rights Reserved."
-
-content_text: "Nervos is network of scalable and interoperable blockchains built on top of an open network, built for the enterprise."
+rights: "Nervos is a project of the Nervos Foundation. All Rights Reserved."

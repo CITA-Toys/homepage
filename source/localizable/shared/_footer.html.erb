@@ -1,14 +1,10 @@
 <footer>
   <div class="n-container">
     <div class="n-row clearfix">
-      <div class="clearfix n-col">
+      <div class="clearfix n-col logo-container">
 
-        <img src="<%= image_path('nervos_logo.png') %>" width="149" srcset="<%= parse_srcset_from_data(t_data.header.logo.srcset) %>"
-             sizes="(max-width: 479px) 100vw, 141px" class="logo">
+        <img src="<%= image_path('nervos_logo_left_right.svg') %>" class="logo">
 
-        <p class="footer-text">
-          <%= t_data.footer.content_text %>
-        </p>
       </div>
 
       <% t_data.footer.infos.each do |_name, info| %>
