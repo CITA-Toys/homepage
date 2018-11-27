@@ -1,0 +1,21 @@
+scalability:
+  title: 'the scalability trilemma'
+  content: 'All blockchains today face the same problem: the scalability trilemma, since <b>global consensus is slow and expensive</b>, adding more nodes aids in decentralization, but hampers speed and overall scalability.<br /><br />It is difficult to support a growing network without sacrificing decentralization and security.'
+  image_path: 'slides/scalability.svg'
+solutions:
+  title: 'how we solve the problem'
+  content: 'Nervos Network tackles the scalability trilemma by separating <b>state generation</b> and <b>state verification/storage</b> in a layered architecture.'
+  image_path: 'slides/solutions.svg'
+layers:
+  title: 'nervos network: built with layers'
+  nav:
+    name: 'check the code'
+    link: 'https://github.com/nervosnetwork'
+  image_path: 'slides/layers.svg'
+  content: 'Nervos CKB (Common Knowledge Base) is the foundation of the Nervos Network, providing powerful <b>data abstraction</b>, <b>broad consensus</b>, and <b>strong security</b> — all without sacrificing decentralization.'
+goals:
+  title: 'nervos ckb has two primary goals'
+  image_path: 'slides/goals.svg'
+approach:
+  title: 'OUR TECHNICAL APPROACH:<br />CKB Virtual Machine (VM)'
+  content: 'CKB-VM is a <b>RISC-V</b> simulator written in Rust, with simple instructions:<br /><br />X86~1000 instructions<br />EVM~ 100 opcodes<br />CKB-VM < 50 Instructions<br /><br />Find more details in <b>CKB-VM Paper</b>.'

@@ -1,0 +1,41 @@
+
+<svg width="511px" height="343px" viewBox="0 0 511 343" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepag_v6-copy-3" transform="translate(-469.000000, -1250.000000)">
+            <g id="图表一" transform="translate(256.000000, 997.000000)">
+                <g id="Group-13" transform="translate(171.000000, 203.000000)">
+                    <g id="Group-11">
+                        <ellipse id="Oval" fill="#11355C" fill-rule="nonzero" cx="127.6" cy="225.190722" rx="85.2" ry="85.2731959"></ellipse>
+                        <g id="Group-8" transform="translate(200.800000, 253.615120)">
+                            <g id="Group-3" transform="translate(50.000000, 0.000000)" fill="#11355C" fill-rule="nonzero">
+                                <ellipse id="Oval-Copy" cx="69.6" cy="69.2594502" rx="69.2" ry="69.2594502"></ellipse>
+                            </g>
+                            <text id="Security" font-family=".AppleSystemUIFont" font-size="12.8" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="88.040625" y="71.2508591">SECURITY</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-3-Copy" transform="translate(353.600000, 50.640893)">
+                            <g id="Group-7">
+                                <ellipse id="Oval-Copy" fill="#11355C" fill-rule="nonzero" cx="119.6" cy="69.2594502" rx="69.2" ry="69.2594502"></ellipse>
+                                <g id="Group-5" transform="translate(0.000000, 48.041237)" fill="#FFFFFF" font-size="12.8" font-weight="normal">
+                                    <text id="Scalability" font-family=".AppleSystemUIFont">
+                                        <tspan x="79.19375" y="12">SCALABILITY</tspan>
+                                    </text>
+                                    <text id="(Operations)" font-family="LucidaGrande, Lucida Grande">
+                                        <tspan x="81.2125" y="32.8178694">(Operat</tspan>
+                                        <tspan x="127.6" y="32.8178694" font-family=".AppleSystemUIFont">i</tspan>
+                                        <tspan x="130.69375" y="32.8178694">ons)</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="Decentralization" font-family=".AppleSystemUIFont" font-size="12.8" font-weight="normal" fill="#FDFEFE">
+                        <tspan x="64.68125" y="227.182131">DECENTRALIZATION</tspan>
+                    </text>
+                    <path d="M77.6120081,333.683849 L547.718051,168.415229" id="直线" stroke="#11355C" stroke-width="10" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

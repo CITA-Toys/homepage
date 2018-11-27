@@ -10,6 +10,10 @@
     color: #FFF;
   }
 
+  video {
+    display: block;
+  }
+
   .cover_navs {
     text-align: center;
 
@@ -25,6 +29,7 @@
       padding: 0 2.865vw;
       margin: 0 1.25vw;
       text-transform: uppercase;
+      cursor: pointer;
     }
   }
 
@@ -49,7 +54,6 @@
   }
 
   .homepage_video {
-    z-index: -1;
     object-fit: cover;
     width: 100%;
   }

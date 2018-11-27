@@ -1,0 +1,62 @@
+
+<svg width="568px" height="527px" viewBox="0 0 568 527" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepag_v6-copy-3" transform="translate(-476.000000, -2018.000000)">
+            <g id="图表二" transform="translate(-51.000000, 1672.000000)">
+                <g id="Group-16" transform="translate(531.000000, 346.000000)">
+                    <g id="Group-8" transform="translate(121.000000, 221.000000)">
+                        <g id="Group-3" transform="translate(50.000000, 0.000000)" fill="#11355C" fill-rule="nonzero">
+                            <ellipse id="Oval-Copy" cx="69.6" cy="69.2594502" rx="69.2" ry="69.2594502"></ellipse>
+                        </g>
+                        <text id="Decentralization" font-family=".AppleSystemUIFont" font-size="12.8" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="56.68125" y="71.2508591">DECENTRALIZATION</tspan>
+                        </text>
+                    </g>
+                    <path d="M1,184 L530,184" id="Line-2" stroke="#11355C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8,5" fill-rule="nonzero"></path>
+                    <text id="Parragraph" font-family="Helvetica-Bold, Helvetica" font-size="20" font-weight="bold" line-spacing="21" letter-spacing="0.7500001" fill="#11355C">
+                        <tspan x="1" y="84">LAYER2</tspan>
+                    </text>
+                    <circle id="Oval-Copy-3" fill="#D8D8D8" cx="483" cy="81" r="81"></circle>
+                    <text id="Parragraph-Copy-4" font-family="Helvetica" font-size="16" font-weight="normal" line-spacing="21" fill="#11355C">
+                        <tspan x="458.898438" y="70">STATE </tspan>
+                        <tspan x="431.195312" y="91">GENERATION</tspan>
+                    </text>
+                    <text id="Parragraph-Copy-3" font-family="Helvetica-Bold, Helvetica" font-size="20" font-weight="bold" line-spacing="21" letter-spacing="0.7500001" fill="#11355C">
+                        <tspan x="1" y="381">LAYER1</tspan>
+                    </text>
+                    <circle id="Oval-Copy-2" fill="#D8D8D8" cx="483" cy="376" r="81"></circle>
+                    <text id="Parragraph-Copy-5" font-family="Helvetica" font-size="16" font-weight="normal" line-spacing="21" fill="#11355C">
+                        <tspan x="458.898438" y="357">STATE</tspan>
+                        <tspan x="428.085938" y="378">VERIFICATION</tspan>
+                        <tspan x="436.964844" y="399">&amp; STORAGE</tspan>
+                    </text>
+                    <g id="Group-8-Copy" transform="translate(121.000000, 388.000000)">
+                        <g id="Group-18">
+                            <g id="Group-3" transform="translate(50.000000, 0.000000)" fill="#11355C" fill-rule="nonzero">
+                                <ellipse id="Oval-Copy" cx="69.6" cy="69.2594502" rx="69.2" ry="69.2594502"></ellipse>
+                            </g>
+                            <text id="Security" font-family=".AppleSystemUIFont" font-size="12.8" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="88.040625" y="71.2508591">SECURITY</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Group-3-Copy" transform="translate(121.000000, 18.000000)">
+                        <g id="Group-7">
+                            <ellipse id="Oval-Copy" fill="#11355C" fill-rule="nonzero" cx="119.6" cy="69.2594502" rx="69.2" ry="69.2594502"></ellipse>
+                            <g id="Group-5" transform="translate(0.000000, 48.041237)" fill="#FFFFFF" font-size="12.8" font-weight="normal">
+                                <text id="Scalability" font-family=".AppleSystemUIFont">
+                                    <tspan x="79.19375" y="12">SCALABILITY</tspan>
+                                </text>
+                                <text id="(Operations)" font-family=".PingFangSC-Regular, .PingFang SC">
+                                    <tspan x="81.73785" y="34.8178694">(</tspan>
+                                    <tspan x="86.25625" y="34.8178694" font-family=".AppleSystemUIFont">Operations</tspan>
+                                    <tspan x="152.14375" y="34.8178694">)</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
